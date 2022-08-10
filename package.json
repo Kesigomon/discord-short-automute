@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "build:production": "tsc --sourceMap false",
+    "run": "node out/main.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.6.5",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "discord.js": "^13.10.1"
+  }
+}
